@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Component/Navbar";
 import Body from "./Component/Body";
+import Footer from "./Footer";
 function App() {
   const [show,setShow] = useState(true);
   const [cart,setCart]=useState([]);
@@ -25,6 +26,7 @@ function App() {
         </header>
       </div>
         {show ? <Body handleClick={handleClick}/>:'cart'}
+           <Footer/>
     </div>
   );
 }
