@@ -16,7 +16,7 @@ const Cards =({item,handleClick})=>{
                     <p>{price}</p>
                     
                 
-                <button onClick={()=>handleClick(item+1)}><strong>Addtocart</strong></button>
+                <button onClick={()=>handleClick(item+1)}>Addtocart</button>
                 
                 
 
