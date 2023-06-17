@@ -11,7 +11,7 @@ const Cards =({item,handleClick})=>{
             </div>
             <div className="details">
                 
-                    <p><strong>{name}</strong></p>
+                    <p style={{fontSize:21}}><strong>{name}</strong></p>
                     <p>{rating}</p>
                     <p>{price}</p>
                     
